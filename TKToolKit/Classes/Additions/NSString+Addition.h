@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "NSString+Addition.h"
 //#import <CoreLocation/CLLocation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (Addition)
 

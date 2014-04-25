@@ -4,6 +4,7 @@
 // No warranty is expressed or implied.
 
 // Extends the UIImage class to support making rounded corners
+#import <UIKit/UIKit.h>
 @interface UIImage (RoundedCorner)
 - (UIImage *)roundedCornerImage:(NSInteger)cornerSize borderSize:(NSInteger)borderSize;
 @end

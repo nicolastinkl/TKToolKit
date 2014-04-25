@@ -7,10 +7,12 @@
 //
 #import "UIButton+Bootstrap.h"
 #import <QuartzCore/QuartzCore.h>
-#import "XCAlbumDefines.h"
-#import "tools.h"
+
+#define ios7BlueColor               [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0]
+
 
 @implementation UIButton (Bootstrap)
+
 -(void)sendMessageStyle
 {
     self.layer.borderWidth = 0.5;
@@ -46,9 +48,19 @@
 //    [self setAdjustsImageWhenHighlighted:NO];
     self.layer.borderColor = [[UIColor lightGrayColor] CGColor];
     self.backgroundColor = [UIColor whiteColor];
-    [self setTitleColor:[tools colorWithIndex:0] forState:UIControlStateNormal];
+    [self setTitleColor:[self colorWithIndex:0] forState:UIControlStateNormal];
     
 }
+
+-(UIColor *) colorWithIndex:( int ) strIndex
+{
+    if (strIndex >= 7) {
+        return [UIColor colorWithPatternImage:[UIImage imageNamed:@"med-name-bg-0"]];
+    }
+    
+    return  [UIColor colorWithPatternImage:[UIImage imageNamed:[NSString stringWithFormat:@"med-name-bg-%d",strIndex]]];
+}
+
 
 -(void)bootstrapStyle{
     self.layer.borderWidth = 0.5;

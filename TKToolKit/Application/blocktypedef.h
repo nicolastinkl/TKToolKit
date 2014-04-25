@@ -3,6 +3,9 @@
 //  XianchangjiaAlbum 
 //
 
+#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
+
 #ifndef DoubanAlbum_blocktypedef_h
 #define DoubanAlbum_blocktypedef_h
 

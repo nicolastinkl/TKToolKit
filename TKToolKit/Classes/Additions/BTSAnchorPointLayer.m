@@ -7,7 +7,7 @@
 //
 
 #import "BTSAnchorPointLayer.h"
-
+#import <UIKit/UIKit.h>
 
 // A layer that draws a simple circle with a narrow border. This is useful
 // for displaying the super layer's anchor point (for debugging purposes).

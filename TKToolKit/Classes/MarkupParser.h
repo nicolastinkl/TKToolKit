@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 @interface MarkupParser : NSObject
 {

@@ -7,7 +7,6 @@
 //
 
 #import "UIAlertViewAddition.h"
-#import "SVProgressHUD.h"
 
 @implementation UIAlertView (Addition)
 
@@ -29,7 +28,6 @@
  */
 +(void) showAlertViewWithMessage:(NSString *)message
 {
-    [SVProgressHUD dismiss];
     UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"提示" message:message  delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
     [alert show];
 }

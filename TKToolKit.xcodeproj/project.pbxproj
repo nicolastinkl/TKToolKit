@@ -27,7 +27,6 @@
 		93E5C37D190A2C7900CD1690 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C335190A2C7900CD1690 /* BundleHelper.m */; };
 		93E5C37E190A2C7900CD1690 /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C337190A2C7900CD1690 /* GCDHelper.m */; };
 		93E5C37F190A2C7900CD1690 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C339190A2C7900CD1690 /* OpenUDID.m */; };
-		93E5C380190A2C7900CD1690 /* SJAvatarBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C33B190A2C7900CD1690 /* SJAvatarBrowser.m */; };
 		93E5C381190A2C7900CD1690 /* UIAlertViewAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C33D190A2C7900CD1690 /* UIAlertViewAddition.m */; };
 		93E5C382190A2C7900CD1690 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C33F190A2C7900CD1690 /* UIImage+Addition.m */; };
 		93E5C383190A2C7900CD1690 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C341190A2C7900CD1690 /* UIImage+Alpha.m */; };
@@ -37,14 +36,12 @@
 		93E5C387190A2C7900CD1690 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34A190A2C7900CD1690 /* UIImage+Blur.m */; };
 		93E5C388190A2C7900CD1690 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34C190A2C7900CD1690 /* UIImage+ImageWithColor.m */; };
 		93E5C389190A2C7900CD1690 /* UIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34E190A2C7900CD1690 /* UIImage+Screenshot.m */; };
-		93E5C38A190A2C7900CD1690 /* UIImageView+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C351190A2C7900CD1690 /* UIImageView+Addtion.m */; };
 		93E5C38B190A2C7900CD1690 /* UIImageView+Exetension.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C353190A2C7900CD1690 /* UIImageView+Exetension.m */; };
 		93E5C38C190A2C7900CD1690 /* UINavigationController+MHDismissModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C355190A2C7900CD1690 /* UINavigationController+MHDismissModalView.m */; };
 		93E5C38D190A2C7900CD1690 /* UITableViewCell+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C357190A2C7900CD1690 /* UITableViewCell+TKCategory.m */; };
 		93E5C38E190A2C7900CD1690 /* UIView+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C359190A2C7900CD1690 /* UIView+Additon.m */; };
 		93E5C38F190A2C7900CD1690 /* UIView+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C35C190A2C7900CD1690 /* UIView+Indicator.m */; };
 		93E5C390190A2C7900CD1690 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C35E190A2C7900CD1690 /* UIView+Shadow.m */; };
-		93E5C391190A2C7900CD1690 /* UIViewController+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C360190A2C7900CD1690 /* UIViewController+Indicator.m */; };
 		93E5C392190A2C7900CD1690 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C362190A2C7900CD1690 /* DataHelper.m */; };
 		93E5C393190A2C7900CD1690 /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C364190A2C7900CD1690 /* MarkupParser.m */; };
 		93E5C394190A2C7900CD1690 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C366190A2C7900CD1690 /* NSString+FontAwesome.m */; };
@@ -58,6 +55,42 @@
 		93E5C3A0190A2CFF00CD1690 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C39F190A2CFF00CD1690 /* QuartzCore.framework */; };
 		93E5C3A2190A2D1400CD1690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C3A1190A2D1400CD1690 /* UIKit.framework */; };
 		93E5C3A4190A2D2300CD1690 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C3A3190A2D2300CD1690 /* CoreGraphics.framework */; };
+		93E5C3B5190A30BF00CD1690 /* BTSAnchorPointLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C324190A2C7900CD1690 /* BTSAnchorPointLayer.m */; };
+		93E5C3B6190A30BF00CD1690 /* BTSCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C326190A2C7900CD1690 /* BTSCoreGraphics.m */; };
+		93E5C3B7190A30BF00CD1690 /* DAImageResizedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C328190A2C7900CD1690 /* DAImageResizedImageView.m */; };
+		93E5C3B8190A30BF00CD1690 /* MCProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C32A190A2C7900CD1690 /* MCProgressBarView.m */; };
+		93E5C3B9190A30BF00CD1690 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C32C190A2C7900CD1690 /* MKMapView+ZoomLevel.m */; };
+		93E5C3BA190A30BF00CD1690 /* NSData+crc32.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C32E190A2C7900CD1690 /* NSData+crc32.m */; };
+		93E5C3BB190A30BF00CD1690 /* NSDataAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C330190A2C7900CD1690 /* NSDataAddition.m */; };
+		93E5C3BC190A30BF00CD1690 /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C332190A2C7900CD1690 /* NSString+Addition.m */; };
+		93E5C3BD190A30BF00CD1690 /* BundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C335190A2C7900CD1690 /* BundleHelper.m */; };
+		93E5C3BE190A30BF00CD1690 /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C337190A2C7900CD1690 /* GCDHelper.m */; };
+		93E5C3BF190A30BF00CD1690 /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C339190A2C7900CD1690 /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E5C3C1190A30BF00CD1690 /* UIAlertViewAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C33D190A2C7900CD1690 /* UIAlertViewAddition.m */; };
+		93E5C3C2190A30BF00CD1690 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C33F190A2C7900CD1690 /* UIImage+Addition.m */; };
+		93E5C3C3190A30BF00CD1690 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C341190A2C7900CD1690 /* UIImage+Alpha.m */; };
+		93E5C3C4190A30BF00CD1690 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C343190A2C7900CD1690 /* UIImage+ImageEffects.m */; };
+		93E5C3C5190A30BF00CD1690 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C345190A2C7900CD1690 /* UIImage+Resize.m */; };
+		93E5C3C6190A30BF00CD1690 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C347190A2C7900CD1690 /* UIImage+RoundedCorner.m */; };
+		93E5C3C7190A30BF00CD1690 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34A190A2C7900CD1690 /* UIImage+Blur.m */; };
+		93E5C3C8190A30BF00CD1690 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34C190A2C7900CD1690 /* UIImage+ImageWithColor.m */; };
+		93E5C3C9190A30BF00CD1690 /* UIImage+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C34E190A2C7900CD1690 /* UIImage+Screenshot.m */; };
+		93E5C3CB190A30BF00CD1690 /* UIImageView+Exetension.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C353190A2C7900CD1690 /* UIImageView+Exetension.m */; };
+		93E5C3CC190A30BF00CD1690 /* UINavigationController+MHDismissModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C355190A2C7900CD1690 /* UINavigationController+MHDismissModalView.m */; };
+		93E5C3CD190A30BF00CD1690 /* UITableViewCell+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C357190A2C7900CD1690 /* UITableViewCell+TKCategory.m */; };
+		93E5C3CE190A30BF00CD1690 /* UIView+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C359190A2C7900CD1690 /* UIView+Additon.m */; };
+		93E5C3CF190A30BF00CD1690 /* UIView+Indicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C35C190A2C7900CD1690 /* UIView+Indicator.m */; };
+		93E5C3D0190A30BF00CD1690 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C35E190A2C7900CD1690 /* UIView+Shadow.m */; };
+		93E5C3D2190A30BF00CD1690 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C362190A2C7900CD1690 /* DataHelper.m */; };
+		93E5C3D3190A30BF00CD1690 /* MarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C364190A2C7900CD1690 /* MarkupParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E5C3D4190A30BF00CD1690 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C366190A2C7900CD1690 /* NSString+FontAwesome.m */; };
+		93E5C3D5190A30BF00CD1690 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C368190A2C7900CD1690 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E5C3D6190A30BF00CD1690 /* SCGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C36A190A2C7900CD1690 /* SCGIFImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93E5C3D7190A30BF00CD1690 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C36C190A2C7900CD1690 /* UIButton+Bootstrap.m */; };
+		93E5C3D8190A30BF00CD1690 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C36E190A2C7900CD1690 /* UIColor+Expanded.m */; };
+		93E5C3D9190A30BF00CD1690 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C370190A2C7900CD1690 /* UIImage+Addition.m */; };
+		93E5C3DA190A30BF00CD1690 /* UIView+AutolayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C372190A2C7900CD1690 /* UIView+AutolayoutDebug.m */; };
+		93E5C3DB190A30BF00CD1690 /* UIView+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C374190A2C7900CD1690 /* UIView+Convenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,8 +150,6 @@
 		93E5C337190A2C7900CD1690 /* GCDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDHelper.m; sourceTree = "<group>"; };
 		93E5C338190A2C7900CD1690 /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 		93E5C339190A2C7900CD1690 /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
-		93E5C33A190A2C7900CD1690 /* SJAvatarBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAvatarBrowser.h; sourceTree = "<group>"; };
-		93E5C33B190A2C7900CD1690 /* SJAvatarBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAvatarBrowser.m; sourceTree = "<group>"; };
 		93E5C33C190A2C7900CD1690 /* UIAlertViewAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertViewAddition.h; sourceTree = "<group>"; };
 		93E5C33D190A2C7900CD1690 /* UIAlertViewAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertViewAddition.m; sourceTree = "<group>"; };
 		93E5C33E190A2C7900CD1690 /* UIImage+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addition.h"; sourceTree = "<group>"; };
@@ -138,8 +169,6 @@
 		93E5C34D190A2C7900CD1690 /* UIImage+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Screenshot.h"; sourceTree = "<group>"; };
 		93E5C34E190A2C7900CD1690 /* UIImage+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Screenshot.m"; sourceTree = "<group>"; };
 		93E5C34F190A2C7900CD1690 /* UIImage-Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Helpers.h"; sourceTree = "<group>"; };
-		93E5C350190A2C7900CD1690 /* UIImageView+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Addtion.h"; sourceTree = "<group>"; };
-		93E5C351190A2C7900CD1690 /* UIImageView+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Addtion.m"; sourceTree = "<group>"; };
 		93E5C352190A2C7900CD1690 /* UIImageView+Exetension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Exetension.h"; sourceTree = "<group>"; };
 		93E5C353190A2C7900CD1690 /* UIImageView+Exetension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Exetension.m"; sourceTree = "<group>"; };
 		93E5C354190A2C7900CD1690 /* UINavigationController+MHDismissModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MHDismissModalView.h"; sourceTree = "<group>"; };
@@ -153,8 +182,6 @@
 		93E5C35C190A2C7900CD1690 /* UIView+Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Indicator.m"; sourceTree = "<group>"; };
 		93E5C35D190A2C7900CD1690 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
 		93E5C35E190A2C7900CD1690 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
-		93E5C35F190A2C7900CD1690 /* UIViewController+Indicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Indicator.h"; sourceTree = "<group>"; };
-		93E5C360190A2C7900CD1690 /* UIViewController+Indicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Indicator.m"; sourceTree = "<group>"; };
 		93E5C361190A2C7900CD1690 /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
 		93E5C362190A2C7900CD1690 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
 		93E5C363190A2C7900CD1690 /* MarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkupParser.h; sourceTree = "<group>"; };
@@ -325,8 +352,6 @@
 				93E5C331190A2C7900CD1690 /* NSString+Addition.h */,
 				93E5C332190A2C7900CD1690 /* NSString+Addition.m */,
 				93E5C333190A2C7900CD1690 /* OtherAddtion */,
-				93E5C33A190A2C7900CD1690 /* SJAvatarBrowser.h */,
-				93E5C33B190A2C7900CD1690 /* SJAvatarBrowser.m */,
 				93E5C33C190A2C7900CD1690 /* UIAlertViewAddition.h */,
 				93E5C33D190A2C7900CD1690 /* UIAlertViewAddition.m */,
 				93E5C33E190A2C7900CD1690 /* UIImage+Addition.h */,
@@ -340,8 +365,6 @@
 				93E5C346190A2C7900CD1690 /* UIImage+RoundedCorner.h */,
 				93E5C347190A2C7900CD1690 /* UIImage+RoundedCorner.m */,
 				93E5C348190A2C7900CD1690 /* UIImage-Helpers */,
-				93E5C350190A2C7900CD1690 /* UIImageView+Addtion.h */,
-				93E5C351190A2C7900CD1690 /* UIImageView+Addtion.m */,
 				93E5C352190A2C7900CD1690 /* UIImageView+Exetension.h */,
 				93E5C353190A2C7900CD1690 /* UIImageView+Exetension.m */,
 				93E5C354190A2C7900CD1690 /* UINavigationController+MHDismissModalView.h */,
@@ -355,8 +378,6 @@
 				93E5C35C190A2C7900CD1690 /* UIView+Indicator.m */,
 				93E5C35D190A2C7900CD1690 /* UIView+Shadow.h */,
 				93E5C35E190A2C7900CD1690 /* UIView+Shadow.m */,
-				93E5C35F190A2C7900CD1690 /* UIViewController+Indicator.h */,
-				93E5C360190A2C7900CD1690 /* UIViewController+Indicator.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -477,6 +498,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E5C3B5190A30BF00CD1690 /* BTSAnchorPointLayer.m in Sources */,
+				93E5C3B6190A30BF00CD1690 /* BTSCoreGraphics.m in Sources */,
+				93E5C3B7190A30BF00CD1690 /* DAImageResizedImageView.m in Sources */,
+				93E5C3B8190A30BF00CD1690 /* MCProgressBarView.m in Sources */,
+				93E5C3B9190A30BF00CD1690 /* MKMapView+ZoomLevel.m in Sources */,
+				93E5C3BA190A30BF00CD1690 /* NSData+crc32.m in Sources */,
+				93E5C3BB190A30BF00CD1690 /* NSDataAddition.m in Sources */,
+				93E5C3BC190A30BF00CD1690 /* NSString+Addition.m in Sources */,
+				93E5C3BD190A30BF00CD1690 /* BundleHelper.m in Sources */,
+				93E5C3BE190A30BF00CD1690 /* GCDHelper.m in Sources */,
+				93E5C3BF190A30BF00CD1690 /* OpenUDID.m in Sources */,
+				93E5C3C1190A30BF00CD1690 /* UIAlertViewAddition.m in Sources */,
+				93E5C3C2190A30BF00CD1690 /* UIImage+Addition.m in Sources */,
+				93E5C3C3190A30BF00CD1690 /* UIImage+Alpha.m in Sources */,
+				93E5C3C4190A30BF00CD1690 /* UIImage+ImageEffects.m in Sources */,
+				93E5C3C5190A30BF00CD1690 /* UIImage+Resize.m in Sources */,
+				93E5C3C6190A30BF00CD1690 /* UIImage+RoundedCorner.m in Sources */,
+				93E5C3C7190A30BF00CD1690 /* UIImage+Blur.m in Sources */,
+				93E5C3C8190A30BF00CD1690 /* UIImage+ImageWithColor.m in Sources */,
+				93E5C3C9190A30BF00CD1690 /* UIImage+Screenshot.m in Sources */,
+				93E5C3CB190A30BF00CD1690 /* UIImageView+Exetension.m in Sources */,
+				93E5C3CC190A30BF00CD1690 /* UINavigationController+MHDismissModalView.m in Sources */,
+				93E5C3CD190A30BF00CD1690 /* UITableViewCell+TKCategory.m in Sources */,
+				93E5C3CE190A30BF00CD1690 /* UIView+Additon.m in Sources */,
+				93E5C3CF190A30BF00CD1690 /* UIView+Indicator.m in Sources */,
+				93E5C3D0190A30BF00CD1690 /* UIView+Shadow.m in Sources */,
+				93E5C3D2190A30BF00CD1690 /* DataHelper.m in Sources */,
+				93E5C3D3190A30BF00CD1690 /* MarkupParser.m in Sources */,
+				93E5C3D4190A30BF00CD1690 /* NSString+FontAwesome.m in Sources */,
+				93E5C3D5190A30BF00CD1690 /* RegexKitLite.m in Sources */,
+				93E5C3D6190A30BF00CD1690 /* SCGIFImageView.m in Sources */,
+				93E5C3D7190A30BF00CD1690 /* UIButton+Bootstrap.m in Sources */,
+				93E5C3D8190A30BF00CD1690 /* UIColor+Expanded.m in Sources */,
+				93E5C3D9190A30BF00CD1690 /* UIImage+Addition.m in Sources */,
+				93E5C3DA190A30BF00CD1690 /* UIView+AutolayoutDebug.m in Sources */,
+				93E5C3DB190A30BF00CD1690 /* UIView+Convenience.m in Sources */,
 				93E5C303190A2BAC00CD1690 /* TKToolKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,7 +545,6 @@
 				93E5C38E190A2C7900CD1690 /* UIView+Additon.m in Sources */,
 				93E5C390190A2C7900CD1690 /* UIView+Shadow.m in Sources */,
 				93E5C377190A2C7900CD1690 /* DAImageResizedImageView.m in Sources */,
-				93E5C380190A2C7900CD1690 /* SJAvatarBrowser.m in Sources */,
 				93E5C387190A2C7900CD1690 /* UIImage+Blur.m in Sources */,
 				93E5C39A190A2C7900CD1690 /* UIView+AutolayoutDebug.m in Sources */,
 				93E5C37E190A2C7900CD1690 /* GCDHelper.m in Sources */,
@@ -505,14 +561,12 @@
 				93E5C37B190A2C7900CD1690 /* NSDataAddition.m in Sources */,
 				93E5C376190A2C7900CD1690 /* BTSCoreGraphics.m in Sources */,
 				93E5C38F190A2C7900CD1690 /* UIView+Indicator.m in Sources */,
-				93E5C391190A2C7900CD1690 /* UIViewController+Indicator.m in Sources */,
 				93E5C399190A2C7900CD1690 /* UIImage+Addition.m in Sources */,
 				93E5C382190A2C7900CD1690 /* UIImage+Addition.m in Sources */,
 				93E5C318190A2BAC00CD1690 /* TKToolKitTests.m in Sources */,
 				93E5C37A190A2C7900CD1690 /* NSData+crc32.m in Sources */,
 				93E5C37D190A2C7900CD1690 /* BundleHelper.m in Sources */,
 				93E5C383190A2C7900CD1690 /* UIImage+Alpha.m in Sources */,
-				93E5C38A190A2C7900CD1690 /* UIImageView+Addtion.m in Sources */,
 				93E5C388190A2C7900CD1690 /* UIImage+ImageWithColor.m in Sources */,
 				93E5C394190A2C7900CD1690 /* NSString+FontAwesome.m in Sources */,
 				93E5C37F190A2C7900CD1690 /* OpenUDID.m in Sources */,
@@ -697,6 +751,7 @@
 				93E5C31D190A2BAC00CD1690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93E5C31E190A2BAC00CD1690 /* Build configuration list for PBXNativeTarget "TKToolKitTests" */ = {
 			isa = XCConfigurationList;
@@ -705,6 +760,7 @@
 				93E5C320190A2BAC00CD1690 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
