@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71F5AC2E-33C0-48F4-B929-AD1406C3ECAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TKToolKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D83ACEE6-CA8B-4432-8F6C-ED08E5AEC625</key>
+		<string>ssh://github.com/nicolastinkl/TKToolKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TKToolKit/TKToolKit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D83ACEE6-CA8B-4432-8F6C-ED08E5AEC625</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nicolastinkl/TKToolKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D83ACEE6-CA8B-4432-8F6C-ED08E5AEC625</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D83ACEE6-CA8B-4432-8F6C-ED08E5AEC625</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TKToolKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
