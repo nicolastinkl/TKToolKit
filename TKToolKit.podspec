@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'TKAPIClient','TKAPIClient/*.{h,m}','Application/*.{h,m}','Classes/*.{h,m}'
   s.framework    =  'Foundation','UIKit','CoreGraphics','QuartzCore'
 
-  s.requires_arc = true
+  #s.requires_arc = true
   
 # Pod Dependencies
 
