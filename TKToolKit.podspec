@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TKToolKit'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.license      = { :type => 'MIT (LICENSE)'}
   s.homepage     = 'git@github.com:nicolastinkl/TKToolKit.git'
   s.authors      =  {'tinkl' => 'nicolastinkl@gmail.com'}
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       = { :git => 'git@github.com:nicolastinkl/TKToolKit.git', :tag => '0.0.1'}
+  s.source       = { :git => 'git@github.com:nicolastinkl/TKToolKit.git', :tag => '0.0.2'}
   s.source_files = 'TKAPIClient','TKAPIClient/*.{h,m}','Application/*.{h,m}','Classes/*.{h,m}'
   s.framework    =  'Foundation','UIKit','CoreGraphics','QuartzCore'
 
